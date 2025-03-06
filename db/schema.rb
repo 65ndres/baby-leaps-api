@@ -18,8 +18,12 @@ ActiveRecord::Schema[7.2].define(version: 2025_03_06_042444) do
     t.integer "gender"
     t.integer "current_week"
     t.integer "current_leap"
+    t.integer "current_day"
+    t.integer "current_leap_day"
+    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_babies_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|

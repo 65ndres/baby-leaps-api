@@ -7,6 +7,9 @@ class CreateBabies < ActiveRecord::Migration[7.2]
       t.integer :gender
       t.integer :current_week
       t.integer :current_leap
+      t.integer :current_day
+      t.integer :current_leap_day
+      t.belongs_to :user, index: true
 
       t.timestamps
     end

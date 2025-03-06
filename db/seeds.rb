@@ -4,9 +4,11 @@
 # Example:
 #  ["1", 20, 4, "Relations", ["skill1", "skill2", "skill3"], ["singal1", "signal2", "signal3"], "description"]
 
+
 core_data = {
   "1": {
     "start_week": 4.5,
+    "start_in_days": 31,
     "end_week": 5.5,
     "duration_in_days": 7,
     "duration_in_weeks": 1,
@@ -27,6 +29,7 @@ core_data = {
   },
   "2": {
     "start_week": 7.5,
+    "start_in_days": 51,
     "end_week": 9,
     "duration_in_days": 10,
     "duration_in_weeks": 1.5,
@@ -43,6 +46,7 @@ core_data = {
   },
   "3": {
     "start_week": 11.5,
+    "start_in_days": 80,
     "end_week": 12.5,
     "duration_in_days": 7,
     "duration_in_weeks": 1,
@@ -59,6 +63,7 @@ core_data = {
   },
   "4": {
     "start_week": 14.5,
+    "start_in_days": 101,
     "end_week": 19.5,
     "duration_in_days": 35,
     "duration_in_weeks": 5,
@@ -75,6 +80,7 @@ core_data = {
   },
   "5": {
     "start_week": 22.5,
+    "start_in_days": 158,
     "end_week": 26.5,
     "duration_in_days": 28,
     "duration_in_weeks": 4,
@@ -91,6 +97,7 @@ core_data = {
   },
   "6": {
     "start_week": 33.5,
+    "start_in_days": 234,
     "end_week": 37.5,
     "duration_in_days": 28,
     "duration_in_weeks": 4,
@@ -107,6 +114,7 @@ core_data = {
   },
   "7": {
     "start_week": 42,
+    "start_in_days": 293,
     "end_week": 46,
     "duration_in_days": 28,
     "duration_in_weeks": 4,
@@ -123,6 +131,7 @@ core_data = {
   },
   "8": {
     "start_week": 51,
+    "start_in_days": 357,
     "end_week": 55,
     "duration_in_days": 28,
     "duration_in_weeks": 4,
@@ -139,6 +148,7 @@ core_data = {
   },
   "9": {
     "start_week": 60,
+    "start_in_days": 420,
     "end_week": 64,
     "duration_in_days": 28,
     "duration_in_weeks": 4,
@@ -155,6 +165,7 @@ core_data = {
   },
   "10": {
     "start_week": 71,
+    "start_in_days": 497,
     "end_week": 75,
     "duration_in_days": 28,
     "duration_in_weeks": 4,
@@ -170,3 +181,98 @@ core_data = {
     ]
   }
 }
+
+
+
+
+# Durations for Each Leap
+# Leap 1: The World of Sensations
+# Total Duration: 7 days (1 week)
+
+# Fussy Phase: ~4-5 days (e.g., 4.5-5 weeks)
+# Intense crying and clinginess as sensory perception sharpens.
+
+# Sunny Phase: ~2-3 days (e.g., 5-5.5 weeks)
+# Initial smiles and head-turning emerge; extends to 1-2 weeks for mastery.
+
+# Leap 2: Patterns
+# Total Duration: 10 days (1.5 weeks)
+
+# Fussy Phase: ~5-7 days (e.g., 7.5-8.5 weeks)
+# Fussiness and shyness as they notice routines or contrasts.
+
+# Sunny Phase: ~3-5 days (e.g., 8.5-9 weeks)
+# Pattern recognition and vocal play begin; refines over 1-2 weeks.
+
+# Leap 3: Smooth Transitions
+# Total Duration: 7 days (1 week)
+
+# Fussy Phase: ~4-5 days (e.g., 11.5-12 weeks)
+# Restlessness and crying peak with subtle change awareness.
+
+# Sunny Phase: ~2-3 days (e.g., 12-12.5 weeks)
+# Tracking smooth movements starts; extends 1-2 weeks.
+
+# Leap 4: Events
+# Total Duration: 35 days (5 weeks)
+
+# Fussy Phase: ~14-21 days (e.g., 14.5-17.5 weeks)
+# Longer, stormier phase with mood swings and frustration.
+
+# Sunny Phase: ~14-21 days (e.g., 17.5-19.5 weeks)
+# Cause-and-effect understanding and rolling emerge; refines over 2-3 weeks.
+
+# Leap 5: Relationships
+# Total Duration: 28 days (4 weeks)
+
+# Fussy Phase: ~10-14 days (e.g., 22.5-24.5 weeks)
+# Separation anxiety and tantrums as distance concepts form.
+
+# Sunny Phase: ~14-18 days (e.g., 24.5-26.5 weeks)
+# Object permanence and sitting develop; extends 2-3 weeks.
+
+# Leap 6: Categories
+# Total Duration: 28 days (4 weeks)
+
+# Fussy Phase: ~10-14 days (e.g., 33.5-35.5 weeks)
+# Irritability and clumsiness with categorization attempts.
+
+# Sunny Phase: ~14-18 days (e.g., 35.5-37.5 weeks)
+# Grouping skills and crawling start; refines 2-3 weeks.
+
+# Leap 7: Sequences
+# Total Duration: 28 days (4 weeks)
+
+# Fussy Phase: ~10-14 days (e.g., 42-44 weeks)
+# Stubbornness and frustration as sequences are tested.
+
+# Sunny Phase: ~14-18 days (e.g., 44-46 weeks)
+# Order understanding and standing emerge; extends 2-3 weeks.
+
+# Leap 8: Programs
+# Total Duration: 28 days (4 weeks)
+
+# Fussy Phase: ~10-14 days (e.g., 51-53 weeks)
+# Moodiness and defiance with planned actions.
+
+# Sunny Phase: ~14-18 days (e.g., 53-55 weeks)
+# First steps and imitation begin; refines 2-3 weeks.
+
+# Leap 9: Principles
+# Total Duration: 28 days (4 weeks)
+
+# Fussy Phase: ~10-14 days (e.g., 60-62 weeks)
+# Tantrums and shyness as rules are grasped.
+
+# Sunny Phase: ~14-18 days (e.g., 62-64 weeks)
+# Independent walking and complex play start; extends 2-3 weeks.
+
+# Leap 10: Systems
+# Total Duration: 28 days (4 weeks)
+
+# Fussy Phase: ~10-14 days (e.g., 71-73 weeks)
+# Bossiness and restlessness with system understanding.
+
+# Sunny Phase: ~14-18 days (e.g., 73-75 weeks)
+# Running and short phrases emerge; refines 2-3 weeks.
+
