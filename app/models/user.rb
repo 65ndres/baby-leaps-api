@@ -4,4 +4,16 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable, :jwt_authenticatable, jwt_revocation_strategy: self
+
+  validates :dob, presence: true
+  validates :name, presence: true
+  validates :gender, presence: true
+  validates :due_date, presence: true
+
+  after_create :calculate_currents
+
+  def calculate_currents
+
+  end
+
 end
