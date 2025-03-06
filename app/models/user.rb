@@ -13,7 +13,7 @@ class User < ApplicationRecord
   after_create :calculate_currents
 
   def calculate_currents
-
+    
   end
 
 end
